@@ -1,12 +1,22 @@
-
 <!DOCTYPE html>
 <html>
-	<head> <title>Sai Herng's webpage </title>
+<body>
 
-	</head>
+<h1>My First JavaScript</h1>
 
-	<body>
-		<h1>Hello World</h1>
-		<p>I'm hosted with GitHub Pages.</p>
-	</body>
-</html>
+<button type="button"
+onclick = "document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo">This is a demonstration.</p>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+
+<script>
+function myFunction() { 
+  document.getElementById("demo").innerHTML = "Hello JavaScript!";
+}
+</script>
+</body>
+</html> 
