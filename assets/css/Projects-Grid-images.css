@@ -1,0 +1,23 @@
+.fit-cover:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.fit-cover {
+  object-fit: contain;
+}
+
+h1 {
+}
+
+.project-card:hover {
+}
+
+.fit-cover {
+  object-fit: contain;
+}
+
+.fit-cover {
+  object-fit: contain;
+}
+
